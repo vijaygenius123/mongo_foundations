@@ -49,9 +49,18 @@ MongoDB priortizes C & P.
 
 ## SQL Terms Vs MongoDB Terms
 
-**SQL**     - **MongoDB**
-Database - Database
-Table   - Collection
-Row - JSON/BSON Document
-Column - Field
-Index - Index
+|SQL|MongoDB|
+|--|--|
+|Database | Database|
+|Table   | Collection|
+|Row | JSON/BSON Document|
+|Column | Field|
+|Index | Index|
+
+## JSON Vs BSON
+
+| |JSON|BSON|
+|--|--|--|--|
+|Encoding|UTF-8|Binary|
+|Data Support|String,Boolean, Number, Array|String, Boolean, Number, Array, Date, Raw Binary|
+|Readibility|Human & Machine|Machine Only|
