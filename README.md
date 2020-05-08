@@ -59,8 +59,8 @@ MongoDB priortizes C & P.
 
 ## JSON Vs BSON
 
-| |JSON|BSON|
-|--|--|--|--|
+|-|JSON|BSON|
+|--|--|--|
 |Encoding|UTF-8|Binary|
 |Data Support|String,Boolean, Number, Array|String, Boolean, Number, Array, Date, Raw Binary|
 |Readibility|Human & Machine|Machine Only|
