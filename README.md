@@ -64,3 +64,15 @@ MongoDB priortizes C & P.
 |Encoding|UTF-8|Binary|
 |Data Support|String,Boolean, Number, Array|String, Boolean, Number, Array, Date, Raw Binary|
 |Readibility|Human & Machine|Machine Only|
+
+## Run A Docker MongoDB
+
+To start a mongo container
+```bash
+docker run -p 27017:27017 -d --name mongo mongo 
+```
+
+To get into the mongo container
+```
+docker exec -it mongo /bin/bash
+```
